@@ -1,7 +1,5 @@
 from unittest import TestCase
-from selma_contas import *
-
-#TODO: Incluir testes com nomes compostos na primeira rotina
+from calc import *
 
 class Test_Transforma_csv_em_lista(TestCase):
     def test_transforma_csv_em_lista_vazia(self):
