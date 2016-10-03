@@ -1,5 +1,6 @@
 #!/bin/env python3
 #coding: utf-8
+
 from operator import itemgetter
 
 def transforma_csv_em_lista(dividas):
