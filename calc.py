@@ -37,7 +37,7 @@ def top_dividas(dividas, n=None):
 
 
 def calc():
-    csv = open('selma_contas.csv').readlines()
+    csv = open('build/selma_contas.csv').readlines()
     lista_de_dividas = transforma_csv_em_lista(csv)
     dic_dividas = agrupa_dividas_por_nome(lista_de_dividas)
     soma = soma_dividas_por_nome(dic_dividas)
